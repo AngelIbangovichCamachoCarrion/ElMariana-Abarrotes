@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Productos</title>
+    <link rel="icon" href="icono.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Catálogo de Productos - Abarrotes</title>
     <style>
-        /* Estilos generales */
+       
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,7 +17,7 @@
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: #FF6347;
             padding: 20px;
             text-align: center;
             color: white;
@@ -41,7 +43,7 @@
         }
 
         nav ul li a:hover {
-            color: #ffeb3b;
+            color: #ffd700;
         }
 
         main {
@@ -92,7 +94,7 @@
         .producto a {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #4CAF50;
+            background-color: #FF6347;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -100,7 +102,7 @@
         }
 
         .producto a:hover {
-            background-color: #45a049;
+            background-color: #ff4500;
         }
 
         .producto:hover {
@@ -120,7 +122,6 @@
             margin: 0;
         }
 
-        /* Animación de entrada */
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -143,7 +144,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="catalogo.html">Catálogo</a></li>
                 <li><a href="registro.html">Registro</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
@@ -153,22 +153,93 @@
         <h2>Productos Disponibles</h2>
         <div class="catalogo">
             <div class="producto">
-                <img src="ruta-a-imagen-1.jpg" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Descripción corta del producto 1.</p>
+                <img src="ruta-a-imagen-1.jpg" alt="Arroz Blanco 1kg">
+                <h3>Arroz Blanco 1kg</h3>
+                <p>Granos de calidad, perfectos para acompañar tus comidas.</p>
                 <a href="producto-detalle.html">Ver Detalle</a>
             </div>
             <div class="producto">
-                <img src="ruta-a-imagen-2.jpg" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>Descripción corta del producto 2.</p>
+                <img src="ruta-a-imagen-2.jpg" alt="Frijoles Negros 1kg">
+                <h3>Frijoles Negros 1kg</h3>
+                <p>Frijoles seleccionados, listos para cocinar.</p>
                 <a href="producto-detalle.html">Ver Detalle</a>
             </div>
-            <!-- Añade más productos aquí -->
+            <div class="producto">
+                <img src="ruta-a-imagen-3.jpg" alt="Aceite Vegetal 1L">
+                <h3>Aceite Vegetal 1L</h3>
+                <p>Ideal para freír y cocinar con sabor y calidad.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-4.jpg" alt="Azúcar Blanca 1kg">
+                <h3>Azúcar Blanca 1kg</h3>
+                <p>Perfecta para endulzar tus recetas favoritas.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-5.jpg" alt="Harina de Trigo 1kg">
+                <h3>Harina de Trigo 1kg</h3>
+                <p>Ideal para preparar panes, pasteles y más.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-6.jpg" alt="Sal de Mesa 500g">
+                <h3>Sal de Mesa 500g</h3>
+                <p>Sal refinada para todas tus comidas.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-7.jpg" alt="Leche Entera 1L">
+                <h3>Leche Entera 1L</h3>
+                <p>Leche de vaca 100% natural.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-8.jpg" alt="Café Molido 500g">
+                <h3>Café Molido 500g</h3>
+                <p>Café de altura con sabor intenso.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-9.jpg" alt="Atún en Agua 140g">
+                <h3>Atún en Agua 140g</h3>
+                <p>Atún ligero y saludable para tus ensaladas.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-10.jpg" alt="Sardinas en Salsa 155g">
+                <h3>Sardinas en Salsa 155g</h3>
+                <p>Sardinas en salsa de tomate listas para consumir.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-11.jpg" alt="Papel Higiénico 4 Rollos">
+                <h3>Papel Higiénico 4 Rollos</h3>
+                <p>Suave y resistente, ideal para el cuidado personal.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-12.jpg" alt="Detergente en Polvo 900g">
+                <h3>Detergente en Polvo 900g</h3>
+                <p>Remueve manchas difíciles con facilidad.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-13.jpg" alt="Jabón de Tocador 125g">
+                <h3>Jabón de Tocador 125g</h3>
+                <p>Jabón hidratante para la piel.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
+            <div class="producto">
+                <img src="ruta-a-imagen-14.jpg" alt="Pasta de Tomate 210g">
+                <h3>Pasta de Tomate 210g</h3>
+                <p>Concentrado de tomate para salsas y guisos.</p>
+                <a href="producto-detalle.html">Ver Detalle</a>
+            </div>
         </div>
     </main>
     <footer>
-        <p>© 2024 Tienda en Línea. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Tienda de Abarrotes. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
